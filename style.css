@@ -4,11 +4,19 @@
     padding: 0;
     font-family: "Open Sans", sans-serif;
 }
+header{
+    height: 837px;
+    background-color: #fff8f3;
+    background-image: url(images/developer.png), url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: 30px 30px, bottom right;
+    height: 837px;
+}
 .navBar{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 51px 226px;
+    padding: 51px 226px;
 }
 .navBar > h3{
     font-size: 45px;
@@ -40,4 +48,8 @@
     color: white;
     background-color: rgb(253, 110,11);
     cursor: pointer;
+}
+.intro{
+    width: 500px;
+    height: 385px;
 }
